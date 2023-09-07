@@ -1,0 +1,88 @@
+/*css reset here */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #a5a1a121; /* hax color */
+}
+.left{
+	margin-right: 100px;
+}
+
+/*left side here */
+h1{
+	font-size: 60px;
+	font-family:cursive;
+	color: 	#1877F2;
+	font-weight: bolder;
+}
+p{
+	font-size: 30px;
+	font-family: emoji;
+	font-weight: 500;
+}
+
+
+/*right side here */
+
+.right{
+	margin-left: 100px;
+}
+
+.form{
+	width: 30vw;
+	border-radius: 3px;
+	height: auto;
+	padding: 20px;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input{
+	    margin-bottom: 10px;
+    border: 1px solid #00000024;
+}
+input{
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 12px;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+button{
+	width: 100%;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	border:none;
+	color: white;
+	margin: 10px 0px;
+	border-radius: 3px;
+}
+
+.btn_login{
+	background: #1877F2;
+}
+
+a{
+	text-decoration: none;
+}
+hr{
+	    margin: 10px 0;
+    background: #0000000f;
+    height: 1px;
+}
+
+.btn_reg{
+	background: green;
+}
